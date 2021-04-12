@@ -1,0 +1,25 @@
+{
+  "Type" : "AWS::Lambda::Function",
+  "Properties" : {
+      "Code" : Code,
+      "CodeSigningConfigArn" : String,
+      "DeadLetterConfig" : DeadLetterConfig,
+      "Description" : String,
+      "Environment" : Environment,
+      "FileSystemConfigs" : [ FileSystemConfig, ... ],
+      "FunctionName" : String,
+      "Handler" : String,
+      "ImageConfig" : ImageConfig,
+      "KmsKeyArn" : String,
+      "Layers" : [ String, ... ],
+      "MemorySize" : Integer,
+      "PackageType" : String,
+      "ReservedConcurrentExecutions" : Integer,
+      "Role" : String,
+      "Runtime" : String,
+      "Tags" : [ Tag, ... ],
+      "Timeout" : Integer,
+      "TracingConfig" : TracingConfig,
+      "VpcConfig" : VpcConfig
+    }
+}
